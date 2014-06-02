@@ -5,6 +5,7 @@
 #
 
 {flip, binary, curry2} = require "fn-utils"
+
 {map, filter, reduce, indexOf} = require "lodash"
 
 mapWith = flip map
